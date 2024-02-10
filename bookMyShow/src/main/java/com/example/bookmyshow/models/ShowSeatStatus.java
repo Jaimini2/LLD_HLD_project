@@ -1,0 +1,8 @@
+package com.example.bookmyshow.models;
+
+public enum ShowSeatStatus {
+    BOOKED,
+    UNAVAILABLE,
+    EMPTY,
+    BLOCKED
+}

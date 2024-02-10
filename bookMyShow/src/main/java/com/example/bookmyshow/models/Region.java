@@ -1,6 +1,7 @@
-package models;
+package com.example.bookmyshow.models;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.OneToMany;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -11,7 +12,9 @@ import java.util.List;
 @Entity
 public class Region  extends BaseModel{
     String name;
+    @OneToMany
     List<Theater> theaterList;
 
-    List<Movie> movies;
+//    @ManyToMany
+//    List<Movie> movies;
 }
