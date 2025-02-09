@@ -23,6 +23,6 @@ public class BaseModel {
     Date createdAt;
 
     @LastModifiedDate
-    Date modifiedAt;
+     private Date modifiedAt;
 
 }

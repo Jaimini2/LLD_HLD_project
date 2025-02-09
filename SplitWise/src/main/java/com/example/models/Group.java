@@ -1,5 +1,8 @@
 package com.example.models;
 
+import com.example.models.BaseModel;
+import com.example.models.Expense;
+import com.example.models.User;
 import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.ManyToOne;
@@ -12,8 +15,7 @@ import java.util.List;
 @Getter
 @Setter
 @Entity(name = "UserGroup")
-public class Group extends BaseModel{
-
+public class Group extends BaseModel {
 
     private String name;
 
